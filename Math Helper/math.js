@@ -12,25 +12,15 @@ function varN_an() {
         bee = Math.pow(b, 2),
         top = bee - ac;
 
-    if (dis < 0) {
-        document.getElementById('Equation').innerHTML = 'No real roots exist since Discriminant < 0 !<br />D = ' + dis + ' <br />The Equation = ' + a + 'x&#178; + ' + b + 'x + ' + c + '<br />';
-        document.getElementById('x1').innerHTML = '&nbsp; ';
-        document.getElementById('x2').innerHTML = '&nbsp; ';
-    } else {
-        var dis_sqrt = Math.sqrt(dis);
-        var x1 = -b + dis_sqrt;
-        var x1 = x1 / a2;
-        var x2 = -b - dis_sqrt;
-        var x2 = x2 / a2;
-        document.getElementById('Equation').innerHTML = " Equation = " + a + "x&#178; + " + b + "x + " + c + "<br />";
-        document.getElementById('x1').innerHTML = ' Alpha (x1) = ' + x1;
-        document.getElementById('x2').innerHTML = ' Beta (x2) = ' + x2;
-    }
-}
-result = (-1 * b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a),
-    result2 = (-1 * b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
-if {
-    result =
+    if (bee < 0) {
+        return = 'No real roots exist 
 
-}
+    } else {
+        var bee_sqrt = Math.sqrt(bee);
+        var x1 = -b + bee_sqrt;
+        var x1 = x1 / a2;
+        var x2 = -b - bee_sqrt;
+        var x2 = x2 / a2;
+
+    }
 }
