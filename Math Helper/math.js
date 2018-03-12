@@ -13,7 +13,7 @@ function varN_an() {
         top = bee - ac;
 
     if (bee < 0) {
-        return = 'No real roots exist 
+        return = 'No real roots exist';
 
     } else {
         var bee_sqrt = Math.sqrt(bee);
