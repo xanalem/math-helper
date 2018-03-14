@@ -4,8 +4,8 @@ button.addEventListener("click", () => {
 });
 
 function changeElementClass(id, className) {
-    var el = document.getElementById(id);
-    el.className = className;
+    var change = document.getElementById(id);
+    change.className = className;
 }
 
 function varN_an() {
